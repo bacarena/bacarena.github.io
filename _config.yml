@@ -18,7 +18,7 @@ email: your-email@example.com
 description: Can be used for simulation of organisms living in communities. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: _bacarena
+twitter_username: _BacArena
 github_username:  bacarena
 
 # Build settings
