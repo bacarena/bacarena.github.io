@@ -7,7 +7,7 @@ layout: default
 ---
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-<center><img src="img/bacarena.png" alt="Drawing" style="width: 300px;"/></center>
+<center><img src="{{ site.url }}/img/bacarena.png" alt="Drawing" style="width: 300px;"/></center>
 
 # [](#header-1)Welcome to BacArena!
 
