@@ -7,48 +7,73 @@ layout: default
 ---
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-<center><img src="{{ site.url }}/img/bacarena.png" alt="Drawing" style="width: 300px;"/></center>
 
-# [](#header-1)Welcome to BacArena!
+<center><i class="fa fa-bullhorn fa-5x" aria-hidden="true"></i></center>
+<center><h1>Welcome to BacArena!</h1></center>
+<p>&nbsp;</p>
 
 BacArena is an open source software for simulating cellular communities. 
 It combines agent-based modeling, flux balance analysis, and statistical analysis.
-BacArena is implemented in R and available on [CRAN](https://cran.r-project.org/package=BacArena)
+BacArena is implemented in R and available on [CRAN](https://cran.r-project.org/package=BacArena).
 
-{{ site.github.zip_url }}
-
-<a class="btn btn-lg btn-success" href="#">
-  <i class="fa fa-flag fa-2x pull-left"></i> BacArena<br>Version 4.7.0</a>
-
-
-<i class="fa fa-camera-retro fa-5x"></i> 
-
-Check out our [**Tutorial**](https://cran.r-project.org/web/packages/BacArena/vignettes/BacArena-Introduction.pdf) and [**Manual**](https://cran.r-project.org/web/packages/BacArena/BacArena.pdf)
-
-<li>
-  <a href="https://github.com/{{ site.github_username }}">
-    <i class="fa fa-github"></i> GitHub
-  </a>
-</li>
-<li>
+<p>&nbsp;</p>
+**Get the latest news and updates:**  
+<center>
   <a href="https://twitter.com/{{ site.twitter_username }}">
-    <i class="fa fa-twitter"></i> Twitter
+    <i class="fa fa-twitter fa-3x"></i> Twitter
+  </a><br>
+  <a href="{{ site.github.repository_url }}">
+    <i class="fa fa-github fa-3x"></i> GitHub
   </a>
-</li>
+</center>
 
-Eugen Bauer*, Johannes Zimmermann*, Federico Baldini, Ines Thiele, Christoph Kaleta  
-**_BacArena: Individual-based metabolic modeling of heterogeneous microbes in complex communities_**
-PLOS Computational Biology (2017) 13,5 [10.1371/journal.pcbi.1005544](https://doi.org/10.1371/journal.pcbi.1005544)  
+<p>&nbsp;</p>
+**Check out the BacArena publication:**  
+>Eugen Bauer\*, Johannes Zimmermann\*, Federico Baldini, Ines Thiele, Christoph Kaleta  
+>**_BacArena: Individual-based metabolic modeling of heterogeneous microbes in complex communities_**
+>PLOS Computational Biology (2017) 13,5 [doi:10.1371/journal.pcbi.1005544](https://doi.org/10.1371/journal.pcbi.1005544)  
 
 
-
-# [](#header-1)First steps
-
+<p>&nbsp;</p><p>&nbsp;</p>
+<center><i class="fa fa-laptop fa-5x" aria-hidden="true"></i></center>
+<center><h1>Installation and first steps</h1></center>
+<p>&nbsp;</p>
+BacArena is written in R language and can be installed easily via The Comprehensive R Archive Network ([CRAN](https://cran.r-project.org/package=BacArena)):
 ```r
 install.packages('BacArena')
 library('BacArena')
 openArena()
 ```
 
+<p>&nbsp;</p>
+**Installing the development version**  
+The [CRAN](https://cran.r-project.org/package=BacArena) version of BacArena is updated less frequently.
+If you want to use the latest features and bugfixes, then try out the developtment version:
+```r
+install.packages('devtools')
+install.github("euba/bacarena")
+library('BacArena')
+```
+
+
+<p>&nbsp;</p><p>&nbsp;</p>
+<center><i class="fa fa-info fa-5x" aria-hidden="true"></i></center>
+<center><h1>Getting help</h1></center>
+<p>&nbsp;</p>
+
+Check out our [**Tutorial**](https://cran.r-project.org/web/packages/BacArena/vignettes/BacArena-Introduction.pdf) and [**Manual**](https://cran.r-project.org/web/packages/BacArena/BacArena.pdf)
+- <a href="https://gist.github.com/jotech/22d46d901d5d63aeb58f007b9882e056">Doing a simple simulation using the E. coli model (iJO1366)</a>
+
+<script src="https://gist.github.com/jotech/22d46d901d5d63aeb58f007b9882e056.js"></script>
+
+<p>&nbsp;</p><p>&nbsp;</p>
+<center><i class="fa fa-camera-retro fa-5x" aria-hidden="true"></i></center>
+<center><h1>Pictures</h1></center>
+<p>&nbsp;</p>
+
+<center><img src="{{ site.url }}/img/bacarena.png" alt="Drawing" style="width: 300px;"/></center>
+<center><img src="{{ site.url }}/img/bacarena_poa.png" alt="Drawing" style="width: 600px;"/></center>
+<center><img src="{{ site.url }}/img/bacarena_sihumi1.png" alt="Drawing" style="width: 600px;"/></center>
+<center><img src="{{ site.url }}/img/bacarena_sihumi2.png" alt="Drawing" style="width: 400px;"/></center>
 
 [comment]: <> <script src="https://gist.github.com/parkr/c08ee0f2726fd0e3909d.js"> </script>
