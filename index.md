@@ -63,8 +63,9 @@ library('BacArena')
 
 Check out our [**Tutorial**](https://cran.r-project.org/web/packages/BacArena/vignettes/BacArena-Introduction.pdf) and [**Manual**](https://cran.r-project.org/web/packages/BacArena/BacArena.pdf)
 - <a href="https://gist.github.com/jotech/22d46d901d5d63aeb58f007b9882e056">Doing a simple simulation using the E. coli model (iJO1366)</a>
+- <a href="https://gist.github.com/jotech/8dd1e27b21ab70ecf2b2a56e5b70a2e0">Working with flux distributions and reaction activities</a>
 
-<script src="https://gist.github.com/jotech/22d46d901d5d63aeb58f007b9882e056.js"></script>
+<script src="https://gist.github.com/jotech/8dd1e27b21ab70ecf2b2a56e5b70a2e0.js"></script>
 
 <p>&nbsp;</p><p>&nbsp;</p>
 <center><i class="fa fa-camera-retro fa-5x" aria-hidden="true"></i></center>

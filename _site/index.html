@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width,maximum-scale=2">
     <meta name="description" content="BacArena : Modeling Framework for Cellular Communities in their Environments">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css?v=6f690c31b3615d9da8fe5fc407f0cdeab7fc1782">
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css?v=de0767609119f1d9293d717b03e23027d01fc408">
 
 <!-- Begin Jekyll SEO tag v2.3.0 -->
 <title>BacArena | Modeling Framework for Cellular Communities in their Environments</title>
@@ -15,11 +15,11 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Modeling Framework for Cellular Communities in their Environments" />
 <meta property="og:description" content="Modeling Framework for Cellular Communities in their Environments" />
-<link rel="canonical" href="/" />
-<meta property="og:url" content="/" />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
 <meta property="og:site_name" content="BacArena" />
 <script type="application/ld+json">
-{"name":"BacArena","description":"Modeling Framework for Cellular Communities in their Environments","author":null,"@type":"WebSite","url":"/","publisher":null,"image":null,"headline":"BacArena","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+{"headline":"BacArena","dateModified":null,"datePublished":null,"sameAs":null,"@type":"WebSite","mainEntityOfPage":null,"image":null,"url":"http://localhost:4000/","name":"BacArena","publisher":null,"author":null,"description":"Modeling Framework for Cellular Communities in their Environments","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   </head>
@@ -43,44 +43,77 @@
       <section id="main_content" class="inner">
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 
-<center><img src="img/bacarena.png" alt="Drawing" style="width: 300px;" /></center>
-
-<h1 id="welcome-to-bacarena"><a href="#header-1"></a>Welcome to BacArena!</h1>
+<center><i class="fa fa-bullhorn fa-5x" aria-hidden="true"></i></center>
+<center><h1>Welcome to BacArena!</h1></center>
+<p>&nbsp;</p>
 
 <p>BacArena is an open source software for simulating cellular communities. 
 It combines agent-based modeling, flux balance analysis, and statistical analysis.
-BacArena is implemented in R and available on <a href="https://cran.r-project.org/package=BacArena">CRAN</a></p>
+BacArena is implemented in R and available on <a href="https://cran.r-project.org/package=BacArena">CRAN</a>.</p>
 
-<p>http://github.com/euba/bacarena/zipball/gh-pages</p>
-
-<p><a class="btn btn-lg btn-success" href="#">
-  <i class="fa fa-flag fa-2x pull-left"></i> BacArena<br />Version 4.7.0</a></p>
-
-<p><i class="fa fa-camera-retro fa-5x"></i></p>
-
-<p>Check out our <a href="https://cran.r-project.org/web/packages/BacArena/vignettes/BacArena-Introduction.pdf"><strong>Tutorial</strong></a> and <a href="https://cran.r-project.org/web/packages/BacArena/BacArena.pdf"><strong>Manual</strong></a></p>
-
-<li>
-  <a href="https://github.com/euba">
-    <i class="fa fa-github"></i> GitHub
-  </a>
-</li>
-<li>
+<p>&nbsp;</p>
+<p><strong>Get the latest news and updates:</strong></p>
+<center>
   <a href="https://twitter.com/_BacArena">
-    <i class="fa fa-twitter"></i> Twitter
+    <i class="fa fa-twitter fa-3x"></i> Twitter
+  </a><br />
+  <a href="https://github.com/euba/bacarena">
+    <i class="fa fa-github fa-3x"></i> GitHub
   </a>
-</li>
+</center>
 
-<p>Eugen Bauer<em>, Johannes Zimmermann</em>, Federico Baldini, Ines Thiele, Christoph Kaleta<br />
+<p>&nbsp;</p>
+<p><strong>Check out the BacArena publication:</strong></p>
+<blockquote>
+  <p>Eugen Bauer*, Johannes Zimmermann*, Federico Baldini, Ines Thiele, Christoph Kaleta<br />
 <strong><em>BacArena: Individual-based metabolic modeling of heterogeneous microbes in complex communities</em></strong>
-PLOS Computational Biology (2017) 13,5 <a href="https://doi.org/10.1371/journal.pcbi.1005544">10.1371/journal.pcbi.1005544</a></p>
+PLOS Computational Biology (2017) 13,5 <a href="https://doi.org/10.1371/journal.pcbi.1005544">doi:10.1371/journal.pcbi.1005544</a></p>
+</blockquote>
 
-<h1 id="first-steps"><a href="#header-1"></a>First steps</h1>
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<center><i class="fa fa-laptop fa-5x" aria-hidden="true"></i></center>
+<center><h1>Installation and first steps</h1></center>
+<p>&nbsp;</p>
+<p>BacArena is written in R language and can be installed easily via The Comprehensive R Archive Network (<a href="https://cran.r-project.org/package=BacArena">CRAN</a>):</p>
 <div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">install.packages</span><span class="p">(</span><span class="s1">'BacArena'</span><span class="p">)</span><span class="w">
 </span><span class="n">library</span><span class="p">(</span><span class="s1">'BacArena'</span><span class="p">)</span><span class="w">
 </span><span class="n">openArena</span><span class="p">()</span><span class="w">
 </span></code></pre></div></div>
+
+<p>&nbsp;</p>
+<p><strong>Installing the development version</strong><br />
+The <a href="https://cran.r-project.org/package=BacArena">CRAN</a> version of BacArena is updated less frequently.
+If you want to use the latest features and bugfixes, then try out the developtment version:</p>
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">install.packages</span><span class="p">(</span><span class="s1">'devtools'</span><span class="p">)</span><span class="w">
+</span><span class="n">install.github</span><span class="p">(</span><span class="s2">"euba/bacarena"</span><span class="p">)</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="s1">'BacArena'</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<center><i class="fa fa-info fa-5x" aria-hidden="true"></i></center>
+<center><h1>Getting help</h1></center>
+<p>&nbsp;</p>
+
+<p>Check out our <a href="https://cran.r-project.org/web/packages/BacArena/vignettes/BacArena-Introduction.pdf"><strong>Tutorial</strong></a> and <a href="https://cran.r-project.org/web/packages/BacArena/BacArena.pdf"><strong>Manual</strong></a></p>
+<ul>
+  <li><a href="https://gist.github.com/jotech/22d46d901d5d63aeb58f007b9882e056">Doing a simple simulation using the E. coli model (iJO1366)</a></li>
+  <li><a href="https://gist.github.com/jotech/8dd1e27b21ab70ecf2b2a56e5b70a2e0">Working with flux distributions and reaction activities</a></li>
+</ul>
+
+<script src="https://gist.github.com/jotech/8dd1e27b21ab70ecf2b2a56e5b70a2e0.js"></script>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<center><i class="fa fa-camera-retro fa-5x" aria-hidden="true"></i></center>
+<center><h1>Pictures</h1></center>
+<p>&nbsp;</p>
+
+<center><img src="http://localhost:4000/img/bacarena.png" alt="Drawing" style="width: 300px;" /></center>
+<center><img src="http://localhost:4000/img/bacarena_poa.png" alt="Drawing" style="width: 600px;" /></center>
+<center><img src="http://localhost:4000/img/bacarena_sihumi1.png" alt="Drawing" style="width: 600px;" /></center>
+<center><img src="http://localhost:4000/img/bacarena_sihumi2.png" alt="Drawing" style="width: 400px;" /></center>
 
 
       </section>
