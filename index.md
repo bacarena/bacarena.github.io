@@ -55,6 +55,15 @@ install.github("euba/bacarena")
 library('BacArena')
 ```
 
+<p>&nbsp;</p>
+**Problems with SBML**  
+Currently, sybilSBML is not available on CRAN. 
+You can install it manually from a linux terminal by:
+```
+wget https://www.cs.hhu.de/fileadmin/redaktion/Oeffentliche_Medien/Fakultaeten/Mathematisch-Naturwissenschaftliche_Fakultaet/Informatik/Bioinformatik/sybilSBML_3.0.5.tar.gz
+R CMD INSTALL  sybilSBML_3.0.5.tar.gz
+```
+
 
 <p>&nbsp;</p><p>&nbsp;</p>
 <center><i class="fa fa-info fa-5x" aria-hidden="true"></i></center>
