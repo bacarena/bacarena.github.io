@@ -74,6 +74,7 @@ Check out our [**Tutorial**](https://cran.r-project.org/web/packages/BacArena/vi
 - <a href="https://gist.github.com/jotech/22d46d901d5d63aeb58f007b9882e056">Doing a simple simulation using the E. coli model (iJO1366)</a>
 - <a href="https://gist.github.com/jotech/8dd1e27b21ab70ecf2b2a56e5b70a2e0">Working with flux distributions and reaction activities</a>
 - <a href="https://gist.github.com/jotech/bb28c3d59baeba4b9d7f115257916888">Analyzing bacterial interaction and cross-feeding patterns </a>
+- <a href="https://gist.github.com/jotech/7434b56e462f6e9e90e5d99dc0994b61">Simple simulation without spatial component and disabled growth model </a>
 
 <script src="https://gist.github.com/jotech/bb28c3d59baeba4b9d7f115257916888.js"></script>
 
