@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width,maximum-scale=2">
     <meta name="description" content="BacArena : Modeling Framework for Cellular Communities in their Environments">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css?v=fb447eb41860ac8f805a11171b22d32478f789de">
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css?v=4d2c23f7d57099e083df406db9281052f770f97e">
 
 <!-- Begin Jekyll SEO tag v2.3.0 -->
 <title>BacArena | Modeling Framework for Cellular Communities in their Environments</title>
@@ -15,11 +15,11 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Modeling Framework for Cellular Communities in their Environments" />
 <meta property="og:description" content="Modeling Framework for Cellular Communities in their Environments" />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
+<link rel="canonical" href="/" />
+<meta property="og:url" content="/" />
 <meta property="og:site_name" content="BacArena" />
 <script type="application/ld+json">
-{"@type":"WebSite","headline":"BacArena","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"url":"http://localhost:4000/","image":null,"name":"BacArena","publisher":null,"author":null,"description":"Modeling Framework for Cellular Communities in their Environments","@context":"http://schema.org"}</script>
+{"@type":"WebSite","url":"/","headline":"BacArena","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"name":"BacArena","image":null,"author":null,"description":"Modeling Framework for Cellular Communities in their Environments","publisher":null,"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   </head>
@@ -91,6 +91,13 @@ If you want to use the latest features and bugfixes, then try out the developtme
 </span></code></pre></div></div>
 
 <p>&nbsp;</p>
+<p><strong>Import matlab models</strong><br />
+matlab cobra model files can be loaded into BacArena:</p>
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">mod</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">readMATmod</span><span class="p">(</span><span class="s2">"model.mat"</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+<p>Check out the <a href="https://gist.github.com/jotech/2ec33f33fb86a400fb40b816277f4147">tutorial for details.</a></p>
+
+<p>&nbsp;</p>
 <p><strong>Problems with SBML</strong><br />
 Currently, sybilSBML is not available on CRAN. 
 You can install it manually from a linux terminal by:</p>
@@ -111,6 +118,7 @@ R CMD INSTALL  sybilSBML_3.0.5.tar.gz
   <li><a href="https://gist.github.com/jotech/bb28c3d59baeba4b9d7f115257916888">Analyzing bacterial interaction and cross-feeding patterns </a></li>
   <li><a href="https://gist.github.com/jotech/7434b56e462f6e9e90e5d99dc0994b61">Simple simulation without spatial component and disabled growth model </a></li>
   <li><a href="https://gist.github.com/jotech/cd6c073ee99856b2ad0742aad9b8a31c">model environmental impact by switching from anaerobic to aerobic conditions after some time</a></li>
+  <li><a href="https://gist.github.com/jotech/2ec33f33fb86a400fb40b816277f4147">how to import matlab models</a></li>
 </ul>
 
 <script src="https://gist.github.com/jotech/bb28c3d59baeba4b9d7f115257916888.js"></script>
@@ -121,10 +129,10 @@ R CMD INSTALL  sybilSBML_3.0.5.tar.gz
 <center><h1>Pictures</h1></center>
 <p>&nbsp;</p>
 
-<center><img src="http://localhost:4000/img/bacarena.png" alt="Drawing" style="width: 300px;" /></center>
-<center><img src="http://localhost:4000/img/bacarena_poa.png" alt="Drawing" style="width: 600px;" /></center>
-<center><img src="http://localhost:4000/img/bacarena_sihumi1.png" alt="Drawing" style="width: 600px;" /></center>
-<center><img src="http://localhost:4000/img/bacarena_sihumi2.png" alt="Drawing" style="width: 400px;" /></center>
+<center><img src="/img/bacarena.png" alt="Drawing" style="width: 300px;" /></center>
+<center><img src="/img/bacarena_poa.png" alt="Drawing" style="width: 600px;" /></center>
+<center><img src="/img/bacarena_sihumi1.png" alt="Drawing" style="width: 600px;" /></center>
+<center><img src="/img/bacarena_sihumi2.png" alt="Drawing" style="width: 400px;" /></center>
 
 
       </section>

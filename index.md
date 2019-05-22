@@ -56,6 +56,14 @@ library('BacArena')
 ```
 
 <p>&nbsp;</p>
+**Import matlab models**  
+matlab cobra model files can be loaded into BacArena:
+```r
+mod <- readMATmod("model.mat")
+```
+Check out the <a href="https://gist.github.com/jotech/2ec33f33fb86a400fb40b816277f4147">tutorial for details.
+
+<p>&nbsp;</p>
 **Problems with SBML**  
 Currently, sybilSBML is not available on CRAN. 
 You can install it manually from a linux terminal by:
@@ -76,6 +84,7 @@ Check out our [**Tutorial**](https://cran.r-project.org/web/packages/BacArena/vi
 - <a href="https://gist.github.com/jotech/bb28c3d59baeba4b9d7f115257916888">Analyzing bacterial interaction and cross-feeding patterns </a>
 - <a href="https://gist.github.com/jotech/7434b56e462f6e9e90e5d99dc0994b61">Simple simulation without spatial component and disabled growth model </a>
 - <a href="https://gist.github.com/jotech/cd6c073ee99856b2ad0742aad9b8a31c">model environmental impact by switching from anaerobic to aerobic conditions after some time</a>
+- <a href="https://gist.github.com/jotech/2ec33f33fb86a400fb40b816277f4147">how to import matlab models</a>
 
 <script src="https://gist.github.com/jotech/bb28c3d59baeba4b9d7f115257916888.js"></script>
 
